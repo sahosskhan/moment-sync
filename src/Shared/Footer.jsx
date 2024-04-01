@@ -1,7 +1,9 @@
 const Footer = () => {
     return (
         <div>
-            <h1>This Footer</h1>
+<footer className="footer footer-center p-10 bg-red-100 text-black text-2xl">
+    <p>©Moment-Sync Copyright 2024 - All right reserved</p>
+</footer>
         </div>
     );
 };
