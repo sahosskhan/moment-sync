@@ -1,4 +1,6 @@
+import BanFour from "./BanFour";
 import BanOne from "./BanOne";
+import BanThree from "./BanThree";
 import BanTwo from "./BanTwo";
 import Banner from "./Banner";
 import Sponsor from "./Sponsor";
@@ -11,6 +13,8 @@ const Home = () => {
          <Sponsor/>
          <BanOne/>
          <BanTwo/>
+         <BanThree/>
+         <BanFour/>
         </div>
     );
 };
