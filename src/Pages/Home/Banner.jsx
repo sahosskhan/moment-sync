@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <>
-                    <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center dark:bg-gray-900 dark:text-white">
+                    <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center dark:bg-gray-800 dark:text-white">
         <div className="w-full lg:w-1/2 ">
             <div className="lg:max-w-lg">
                 <h1 className="text-2xl font-semibold tracking-wide text-gray-800 dark:text-white lg:text-4xl ">Sync your <span className="text-red-500">moments</span> with memories </h1>

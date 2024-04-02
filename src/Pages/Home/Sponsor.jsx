@@ -4,9 +4,8 @@ const Sponsor = () => {
                <div className="">
              
             <div className="container px-6 py-16 mx-auto text-center">
-        <div className="max-w-lg mx-auto">
-            <h1 className="text-5xl font-semibold text-gray-800 dark:text-white ">Our Sponsor Partners</h1>
-  
+        <div className="max-w-7xl mx-auto">
+            <h1 className="lg:text-5xl text-3xl font-semibold text-gray-800 dark:text-white ">Our <span className="text-red-500 lg:text-4xl text-2xl">Highly Known</span> Sponsor Partners</h1>
         </div>
 
         <div className="max-w-screen-xl mx-auto mt-20">
@@ -49,7 +48,7 @@ const Sponsor = () => {
                 </div>
 
                 <div className="flex items-center  hover:scale-110 scale-100 transition-all duration-100 justify-center col-span-2 md:col-span-3 lg:col-span-1">
-                   <img className=" h-16" src="food.png" alt="" />
+                   <img className=" h-12" src="food.png" alt="" />
                 </div>
                 <div className="flex items-center  hover:scale-110 scale-100 transition-all duration-100 justify-center col-span-2 md:col-span-3 lg:col-span-1">
                    <img className=" h-20" src="boat.png" alt="" />

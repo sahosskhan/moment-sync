@@ -5,7 +5,7 @@ import Footer from "../Shared/Footer";
 
 const MainLayouts = () => {
     return (
-        <div className=" dark:bg-gray-900 ">
+        <div className=" dark:bg-gray-800 ">
          <Navbar/>
          <Outlet/>
          <Footer/>   
