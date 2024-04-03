@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "banner": "https://i.ibb.co/G5jvxGg/wedsm.png",
+        "banner": "/ban1.jpg",
         "icon": "event-icon/icon1.png",
         "name": "Corporate Conferences",
         "shortDetails": "Tailored events for corporate networking.",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban2.webp",
         "icon": "event-icon/icon2.png",
         "name": "Product Launch Events",
         "shortDetails": "Unveil your products with impact.",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "banner": "https://i.ibb.co/TkzdwJX/anism.png",
+        "banner": "/ban3.jpg",
         "icon": "event-icon/icon3.png",
         "name": "Award Ceremonies",
         "shortDetails": "Recognizing excellence and achievement.",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "banner": "https://i.ibb.co/GFVdDbC/engsm.png",
+        "banner": "/ban4.jpg",
         "icon": "event-icon/icon4.png",
         "name": "Weddings Events",
         "shortDetails": "Crafting unforgettable moments.",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "banner": "https://i.ibb.co/GHrFgWz/retsm.png",
+        "banner": "/ban5.jpg",
         "icon": "event-icon/icon5.png",
         "name": "Anniversaries Parties",
         "shortDetails": "Celebrate milestones in style.",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban6.jpg",
         "icon": "event-icon/icon6.png",
         "name": "Birthday Parties",
         "shortDetails": "Create unforgettable birthday memories.",
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban7.jpg",
         "icon": "event-icon/icon7.png",
         "name": "Carnivals & Fairs",
         "shortDetails": "Fun-filled events for everyone.",
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban8.jpg",
         "icon": "event-icon/icon8.png",
         "name": "Fundraisers & Charity",
         "shortDetails": "Supporting noble causes through events.",
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban9.jpeg",
         "icon": "event-icon/icon9.png",
         "name": "Workshops & Webinars",
         "shortDetails": "Interactive sessions for learning.",
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban10.webp",
         "icon": "event-icon/icon10.png",
         "name": "Training Programs",
         "shortDetails": "Empowering individuals through training.",
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban11.jpg",
         "icon": "event-icon/icon11.png",
         "name": "Career Fairs Events",
         "shortDetails": "Connecting job seekers with employers.",
@@ -100,16 +100,16 @@
     },
     {
         "id": 12,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban12.jpg",
         "icon": "event-icon/icon12.png",
-        "name": "Wellness Expos",
+        "name": "Medical Events",
         "shortDetails": "Promoting holistic well-being.",
-        "details": "Wellness expos focus on promoting holistic well-being by showcasing products and services related to physical, mental, and emotional health. From fitness demonstrations to mindfulness workshops, these events aim to inspire attendees to lead healthier lifestyles.",
+        "details": "Medical events focus on promoting holistic well-being by showcasing products and services related to physical, mental, and emotional health. From fitness demonstrations to mindfulness workshops, these events aim to inspire attendees to lead healthier lifestyles.",
         "charge": 20000
     },
     {
         "id": 13,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban13.jpg",
         "icon": "event-icon/icon13.png",
         "name": "Tech Conferences",
         "shortDetails": "Exploring cutting-edge technologies.",
@@ -118,7 +118,7 @@
     },
     {
         "id": 14,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban14.jpg",
         "icon": "event-icon/icon14.png",
         "name": "Hackathons Events",
         "shortDetails": "Fostering innovation through collaboration.",
@@ -127,7 +127,7 @@
     },
     {
         "id": 15,
-        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "banner": "/ban15.jpeg",
         "icon": "event-icon/icon15.png",
         "name": "ESports Tournament",
         "shortDetails": "Compete in thrilling esports battles.",

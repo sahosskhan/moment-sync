@@ -25,7 +25,7 @@ const Navbar = () => {
     };
   return (
     <>
-<div className="navbar max-w-screen-2xl container mx-auto bg-red-100 dark:bg-gray-700  rounded-lg uppercase">
+<div className="navbar max-w-screen-2xl container mx-auto bg-red-100 dark:bg-gray-700  lg:rounded-lg uppercase">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost text-xl dark:text-white lg:hidden">
@@ -39,7 +39,7 @@ const Navbar = () => {
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Contact</a></li></NavLink> 
       </ul>
     </div>
-<div className="lg:w-[70%] w-[150%] h-full">
+<div className="lg:w-[78%] w-[150%] h-full">
 <Logo />
 </div>
   </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
   <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img  src="user.png" />
+          <img  src="/user.png" />
         </div>
       </div>
       <ul tabIndex={0} className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-red-100 dark:bg-gray-900 rounded-box w-52 dark:text-white ">
