@@ -49,7 +49,7 @@ const Banner = () => {
         </div>
 
         <div className="flex items-center  justify-center w-full h-96 lg:w-1/2">
-            <img className=" object-cover w-full h-full max-w-2xl rounded-md" src="home-banner.jpg" alt="glasses photo"/>
+            <img className=" object-cover w-full h-full max-w-2xl rounded-md" src="home-banner/home-banner.jpg" alt="glasses photo"/>
         </div>
     </div>   
         </>

@@ -11,9 +11,7 @@ const Stats = () => {
 <section className="p-6 my-6  text-gray-100">
 	<div className="container grid grid-cols-1 gap-10 mx-auto sm:grid-cols-2 xl:grid-cols-4">
 		
-		<div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="350" className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-red-100 text-black">
+		<div className="flex p-4 space-x-4 hover:scale-110 scale-100 transition-all duration-300 rounded-lg md:space-x-6 bg-red-100 text-black">
 			<div className="flex justify-center text-5xl p-4 items-center rounded-lg bg-red-400">
 			<i className="fa-regular fa-circle-check"></i>
 			</div>
@@ -23,9 +21,7 @@ const Stats = () => {
 			</div>
 		</div>
 
-		<div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="350" className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-red-100 text-black">
+		<div className="flex p-4 space-x-4 hover:scale-110 scale-100 transition-all duration-300 rounded-lg md:space-x-6 bg-red-100 text-black">
 			<div className="flex justify-center text-5xl p-4 items-center rounded-lg bg-red-400">
             <i className="fa-regular fa-face-smile"></i>
 			</div>
@@ -35,9 +31,7 @@ const Stats = () => {
 			</div>
 		</div>
 
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="350" className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-red-100 text-black">
+        <div className="flex p-4 space-x-4 hover:scale-110 scale-100 transition-all duration-300 rounded-lg md:space-x-6 bg-red-100 text-black">
 			<div className="flex justify-center text-5xl p-4 items-center rounded-lg bg-red-400">
             <i className="fa-solid fa-person-running"></i>
 			</div>
@@ -47,9 +41,7 @@ const Stats = () => {
 			</div>
 		</div>
 
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="350" className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-red-100 text-black">
+        <div className="flex p-4 space-x-4 hover:scale-110 scale-100 transition-all duration-300 rounded-lg md:space-x-6 bg-red-100 text-black">
 			<div className="flex justify-center text-5xl p-4 items-center rounded-lg bg-red-400">
             <i className="fa-solid fa-person-running"></i>
 			</div>

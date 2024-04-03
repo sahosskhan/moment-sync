@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-red-50 rounded-box w-52 dark:bg-gray-900 dark:text-white ">
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Home</a></li></NavLink> 
-      <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Events</a></li></NavLink> 
+      <NavLink to="/events"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Events</a></li></NavLink> 
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Successes</a></li></NavLink> 
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Collection</a></li></NavLink> 
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Contact</a></li></NavLink> 
@@ -46,7 +46,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-lg menu-horizontal px-1 dark:text-white">
     <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Home</a></li></NavLink> 
-      <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Events</a></li></NavLink> 
+      <NavLink to="/events"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Events</a></li></NavLink> 
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Successes</a></li></NavLink> 
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Collection</a></li></NavLink> 
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Contact</a></li></NavLink> 

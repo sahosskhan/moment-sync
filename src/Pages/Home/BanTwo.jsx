@@ -5,8 +5,8 @@ const BanTwo = () => {
         <>
                 <div className="container px-6 py-16 mx-auto">
   <div className="items-center lg:flex ">
-    <div className="w-full lg:w-1/2">
-    <img className="w-full h-full lg:max-w-3xl rounded-lg" src="ban-two.gif" alt="" />
+    <div className="w-full hover:scale-110 scale-100 transition-all duration-300 lg:w-1/2">
+    <img className="w-full  h-full lg:max-w-3xl rounded-lg" src="home-banner/ban-two.gif" alt="" />
     </div>
     <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
     <div className="lg:max-w-lg">

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "banner": "https://i.ibb.co/G5jvxGg/wedsm.png",
+        "icon": "event-icon/icon1.png",
+        "name": "Corporate Conferences",
+        "shortDetails": "Tailored events for corporate networking.",
+        "details": "Corporate conferences provide a platform for professionals to network, share insights, and discuss industry trends. From keynote speakers to breakout sessions, these events offer valuable opportunities for learning and collaboration.",
+        "charge": 20000
+    },
+    {
+        "id": 2,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon2.png",
+        "name": "Product Launch Events",
+        "shortDetails": "Unveil your products with impact.",
+        "details": "Product launch events are crucial for introducing new products to the market. From unveiling features to generating buzz, these events play a vital role in driving initial sales and building brand awareness.",
+        "charge": 15000
+    },
+    {
+        "id": 3,
+        "banner": "https://i.ibb.co/TkzdwJX/anism.png",
+        "icon": "event-icon/icon3.png",
+        "name": "Award Ceremonies",
+        "shortDetails": "Recognizing excellence and achievement.",
+        "details": "Award ceremonies celebrate outstanding individuals and organizations for their achievements and contributions. From honoring employees to recognizing industry leaders, these events inspire and motivate.",
+        "charge": 10000
+    },
+    {
+        "id": 4,
+        "banner": "https://i.ibb.co/GFVdDbC/engsm.png",
+        "icon": "event-icon/icon4.png",
+        "name": "Weddings Events",
+        "shortDetails": "Crafting unforgettable moments.",
+        "details": "Wedding events are meticulously planned to create unforgettable moments for couples and their guests. From venue selection to decor and entertainment, every detail is tailored to reflect the couple's unique style and love story.",
+        "charge": 30000
+    },
+    {
+        "id": 5,
+        "banner": "https://i.ibb.co/GHrFgWz/retsm.png",
+        "icon": "event-icon/icon5.png",
+        "name": "Anniversaries Parties",
+        "shortDetails": "Celebrate milestones in style.",
+        "details": "Anniversary parties commemorate significant milestones in relationships and marriages. Whether it's a silver anniversary or a golden jubilee, these events bring families and friends together to celebrate love and commitment.",
+        "charge": 10000
+    },
+    {
+        "id": 6,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon6.png",
+        "name": "Birthday Parties",
+        "shortDetails": "Create unforgettable birthday memories.",
+        "details": "Birthday parties are a time to celebrate life and create cherished memories with friends and family. From themed decorations to entertainment and activities, these events are tailored to reflect the personality and interests of the birthday celebrant.",
+        "charge": 5000
+    },
+    {
+        "id": 7,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon7.png",
+        "name": "Carnivals & Fairs",
+        "shortDetails": "Fun-filled events for everyone.",
+        "details": "Carnivals and fairs offer a range of entertainment and attractions for people of all ages. From carnival games to food stalls and live performances, these events create a festive atmosphere and bring communities together.",
+        "charge": 20000
+    },
+    {
+        "id": 8,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon8.png",
+        "name": "Fundraisers & Charity",
+        "shortDetails": "Supporting noble causes through events.",
+        "details": "Fundraisers and charity events raise funds and awareness for various causes and organizations. From galas to auctions and charity walks, these events mobilize support and make a positive impact on society.",
+        "charge": 15000
+    },
+    {
+        "id": 9,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon9.png",
+        "name": "Workshops & Webinars",
+        "shortDetails": "Interactive sessions for learning.",
+        "details": "Workshops and webinars provide opportunities for professionals to enhance their skills and knowledge in specific areas. From hands-on workshops to virtual seminars, these sessions facilitate learning and networking.",
+        "charge": 5000
+    },
+    {
+        "id": 10,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon10.png",
+        "name": "Training Programs",
+        "shortDetails": "Empowering individuals through training.",
+        "details": "Training programs equip individuals and teams with the skills and knowledge needed to excel in their roles. From leadership development to technical training, these programs are tailored to meet specific learning objectives and organizational goals.",
+        "charge": 10000
+    },
+    {
+        "id": 11,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon11.png",
+        "name": "Career Fairs Events",
+        "shortDetails": "Connecting job seekers with employers.",
+        "details": "Career fairs bring together job seekers and employers for networking and recruitment opportunities. From resume workshops to on-the-spot interviews, these events help candidates explore career options and connect with potential employers.",
+        "charge": 15000
+    },
+    {
+        "id": 12,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon12.png",
+        "name": "Wellness Expos",
+        "shortDetails": "Promoting holistic well-being.",
+        "details": "Wellness expos focus on promoting holistic well-being by showcasing products and services related to physical, mental, and emotional health. From fitness demonstrations to mindfulness workshops, these events aim to inspire attendees to lead healthier lifestyles.",
+        "charge": 20000
+    },
+    {
+        "id": 13,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon13.png",
+        "name": "Tech Conferences",
+        "shortDetails": "Exploring cutting-edge technologies.",
+        "details": "Tech conferences bring together experts and enthusiasts to explore the latest trends and advancements in technology. From keynote presentations to hands-on workshops, these events provide valuable insights and networking opportunities for professionals in the tech industry.",
+        "charge": 25000
+    },
+    {
+        "id": 14,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon14.png",
+        "name": "Hackathons Events",
+        "shortDetails": "Fostering innovation through collaboration.",
+        "details": "Hackathons are events where programmers, developers, and designers come together to collaborate intensively on software projects within a short time frame. These events foster innovation, creativity, and teamwork, often resulting in the development of groundbreaking solutions and prototypes.",
+        "charge": 20000
+    },
+    {
+        "id": 15,
+        "banner": "https://i.ibb.co/kq8Q01C/birthsm.png",
+        "icon": "event-icon/icon15.png",
+        "name": "ESports Tournament",
+        "shortDetails": "Compete in thrilling esports battles.",
+        "details": "ESports tournaments bring together competitive gamers to showcase their skills and compete for prizes. From popular multiplayer games to niche titles, these tournaments attract players and spectators alike, creating an electrifying atmosphere reminiscent of traditional sports events.",
+        "charge": 30000
+    }
+]
