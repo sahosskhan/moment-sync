@@ -4,6 +4,7 @@ import Error from "../Pages/Error/Error";
 import Home from "../Pages/Home/Home";
 import MainEvent from "../Pages/Event/MainEvent";
 import ViewEventDetails from "../Pages/Event/ViewEventDetails";
+import BookingEvent from "../Pages/Event/BookingEvent";
 
 
 
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
         {
             path : "/view-event-details/:id",
             element: <ViewEventDetails/>,
+            loader: () => fetch('/events.json')
+        },
+        {
+            path : "/confirm-event-booking/:id",
+            element: <BookingEvent/>,
             loader: () => fetch('/events.json')
         }
 

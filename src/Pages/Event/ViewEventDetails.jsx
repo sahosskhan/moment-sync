@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 
 const ViewEventDetails = () => {
     const Event = useLoaderData();
@@ -20,8 +20,9 @@ const ViewEventDetails = () => {
       <h2 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">{ name}</h2>
       <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 lg:text-base">{details}</p>
       <div className="flex flex-col mt-6 space-y-3 gap-4 lg:space-y-0 lg:flex-row">
+        <Link  to={`/confirm-event-booking/${id}`}>
         <button  className="block px-5 py-2 text-lg font-medium tracking-wider text-center text-white hover:scale-110 scale-100 transition-all duration-300 transform bg-red-500 rounded-md hover:bg-gray-700">Book Now</button>
-    
+        </Link>
       </div>
     </div>
   </div>
