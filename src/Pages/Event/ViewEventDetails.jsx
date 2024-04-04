@@ -21,7 +21,8 @@ const ViewEventDetails = () => {
       <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 lg:text-base">{details}</p>
       <div className="flex flex-col mt-6 space-y-3 gap-4 lg:space-y-0 lg:flex-row">
         <Link  to={`/confirm-event-booking/${id}`}>
-        <button  className="block px-5 py-2 text-lg font-medium tracking-wider text-center text-white hover:scale-110 scale-100 transition-all duration-300 transform bg-red-500 rounded-md hover:bg-gray-700">Book Now</button>
+        <button type="button" className="rounded-lg group relative h-14 w-48 overflow-hidden border-4 border-red-500 hover:border-none text-xl text-black font-bold hover:text-white"><span className="bg-red-500  ease-in absolute w-[57%]  -translate-x-full group-hover:translate-x-0 -left-2 top-0 bottom-0 duration-300 -z-10 skew-x-12"></span><span className="bg-red-400 ease-in absolute w-[55%]  translate-x-full group-hover:translate-x-0 -right-2 top-0 bottom-0 duration-300 skew-x-12 -z-10"></span>Confirm Book</button>
+
         </Link>
       </div>
     </div>

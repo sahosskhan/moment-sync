@@ -10,10 +10,6 @@ const MainEvent = () => {
                    EventData?.map(items=><EventCategory key={items.id} items={items}></EventCategory> )
                 }
             </div>
-
-
-
-
         </div>
     );
 };
