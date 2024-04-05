@@ -143,7 +143,7 @@ const BookingEvent = () => {
       
 <div className="flex justify-between items-center mt-10">
   
-<button className="text-xl font-bold transition-colors duration-1000 hover:bg-gray-700 w-full h-14 rounded-lg bg-red-500 text-white "><span className="pr-8">Book Now</span></button>
+<button className="text-xl font-bold transition-colors duration-700 hover:bg-gray-700 w-full h-14 rounded-lg bg-red-500 text-white "><span className="pr-8">Book Now</span></button>
 
 </div>
          

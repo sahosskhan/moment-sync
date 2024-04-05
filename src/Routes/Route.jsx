@@ -6,6 +6,7 @@ import MainEvent from "../Pages/Event/MainEvent";
 import ViewEventDetails from "../Pages/Event/ViewEventDetails";
 import BookingEvent from "../Pages/Event/BookingEvent";
 import Login from "../Auth/Login";
+import CreateAccount from "../Auth/CreateAccount";
 
 
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
 {
     path : "/login",
     element: <Login/>,   
+},
+{
+    path : "/create-account",
+    element: <CreateAccount/>,   
 }
 
     ]
