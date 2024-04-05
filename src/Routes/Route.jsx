@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import MainEvent from "../Pages/Event/MainEvent";
 import ViewEventDetails from "../Pages/Event/ViewEventDetails";
 import BookingEvent from "../Pages/Event/BookingEvent";
+import Login from "../Auth/Login";
 
 
 
@@ -34,7 +35,11 @@ const router = createBrowserRouter([
             path : "/confirm-event-booking/:id",
             element: <BookingEvent/>,
             loader: () => fetch('/events.json')
-        }
+        },
+{
+    path : "/login",
+    element: <Login/>,   
+}
 
     ]
 }

@@ -62,7 +62,7 @@ const Navbar = () => {
       <ul tabIndex={0} className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-red-100 dark:bg-gray-900 rounded-box w-52 dark:text-white ">
       <li className=" mb-4 rounded-md font-semibold text-black bg-gray-300 capitalize"><a>Sahoss Khan</a></li>
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Register</a></li></NavLink> 
-      <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Login</a></li></NavLink> 
+      <NavLink to="/login"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Login</a></li></NavLink> 
       <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Logout</a></li></NavLink> 
       </ul>
     </div>
