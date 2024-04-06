@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { updateProfile } from "firebase/auth";
 import { useContext, useState } from "react";
 import { AuthContext } from "./AuthProvider";
+import { Helmet } from "react-helmet-async";
 
 const CreateAccount = () => {
     const { createUser, googleLogin, } = useContext(AuthContext);
@@ -77,6 +78,9 @@ const CreateAccount = () => {
       }
     return (
 <>
+<Helmet>
+        <title>Create Account | Moment Sync</title>
+      </Helmet>
 <div className="w-full max-w-2xl my-14 p-10 m-auto mx-auto bg-gray-50 rounded-lg shadow-lg dark:bg-gray-600">
   <div className="flex justify-center mx-auto h-20">
 <Logo/>

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import BanFour from "./BanFour";
 import BanOne from "./BanOne";
 import BanThree from "./BanThree";
@@ -11,6 +12,9 @@ import Subscribe from "./Subscribe";
 const Home = () => {
     return (
         <div className="max-w-screen-2xl container mx-auto">
+                  <Helmet>
+        <title>Home | Moment Sync</title>
+      </Helmet>
          <Banner/>
          <Stats/>
          <BanOne/>

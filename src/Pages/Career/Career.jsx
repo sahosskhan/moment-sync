@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 
 
 const Career = () => {
     return (
         <div className="max-w-screen-2xl container mx-auto">
+                                                <Helmet>
+        <title>Career | Moment Sync</title>
+      </Helmet>
                   <div className="my-20 ">
 
   <div className="flex flex-col xl:flex-row lg:flex-row gap-8 p-2">

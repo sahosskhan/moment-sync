@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 
 const ViewEventDetails = () => {
@@ -13,7 +14,10 @@ const ViewEventDetails = () => {
     const {  banner, name, details, charge } = EventData || {};
 
     return (
-        <div className="max-w-screen-2xl container mx-auto my-[102px] ">
+        <div className="max-w-screen-2xl container mx-auto my-[11.7vh] ">
+                            <Helmet>
+        <title>Event Details | Moment Sync</title>
+      </Helmet>
            <div className="lg:flex">
   <div className="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
     <div className="max-w-xl">

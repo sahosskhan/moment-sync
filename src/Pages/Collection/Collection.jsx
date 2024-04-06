@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 
 
 const Collection = () => {
     return (
         <div className="max-w-screen-2xl container mx-auto">
+                                              <Helmet>
+        <title>Event Collection | Moment Sync</title>
+      </Helmet>
 <section className="bg-white dark:bg-gray-900">
   <div className="max-w-3xl px-6 py-16 mx-auto text-center">
     <h1 className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Want to collect memory of yours?</h1>
@@ -19,22 +23,22 @@ const Collection = () => {
 <div className="grid grid-cols-1 gap-8 mb-16  xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
 
 <div >
-  <img className="object-cover w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
+  <img className="object-cover hover:grayscale transition-all duration-700 w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
 </div>
 <div >
-  <img className="object-cover w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?anniversary" alt />
+  <img className="object-cover hover:grayscale transition-all duration-700 w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?anniversary" alt />
 </div>
 <div >
-  <img className="object-cover w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?birthday" alt />
+  <img className="object-cover hover:grayscale transition-all duration-700 w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?birthday" alt />
 </div>
 <div >
-  <img className="object-cover w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
+  <img className="object-cover hover:grayscale transition-all duration-700 w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
 </div>
 <div >
-  <img className="object-cover w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
+  <img className="object-cover hover:grayscale transition-all duration-700 w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
 </div>
 <div >
-  <img className="object-cover w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
+  <img className="object-cover hover:grayscale transition-all duration-700 w-full rounded-lg h-96 " src="https://source.unsplash.com/800x800/?wedding" alt />
 </div>
 
 

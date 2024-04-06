@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
+
 import { useLoaderData, useParams } from "react-router-dom";
 
 const BookingEvent = () => {
@@ -13,6 +15,9 @@ const BookingEvent = () => {
     const { name, banner } = EventData || {};
     return (
         <div className="max-w-screen-2xl container mx-auto my-10">
+                                      <Helmet>
+        <title>Event Booking | Moment Sync</title>
+      </Helmet>
             <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-gray-300  dark:bg-gray-400 rounded-lg  ">
               <h1 className="text-4xl text-center font-bold  text-red-500">
                 Confirm Your Booking For Event

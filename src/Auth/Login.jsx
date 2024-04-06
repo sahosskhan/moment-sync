@@ -4,6 +4,7 @@ import Logo from "../Shared/Logo";
 import Swal from "sweetalert2";
 import { useContext } from "react";
 import { AuthContext } from "./AuthProvider";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
   const { signIn, googleLogin, loading } = useContext(AuthContext);
@@ -65,6 +66,9 @@ const Login = () => {
     return (
 
 <>
+<Helmet>
+        <title>Login | Moment Sync</title>
+      </Helmet>
 <div className="w-full max-w-2xl my-[13.4vh] p-10 m-auto mx-auto bg-gray-50 rounded-lg shadow-lg dark:bg-gray-600">
   <div className="flex justify-center mx-auto h-20">
 <Logo/>
