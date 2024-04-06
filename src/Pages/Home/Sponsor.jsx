@@ -5,7 +5,7 @@ const Sponsor = () => {
              
             <div className="container px-6 py-16 mx-auto text-center">
         <div className="max-w-7xl mx-auto">
-            <h1 className="lg:text-5xl text-3xl font-semibold text-gray-800 dark:text-white ">Our <span className="text-red-500 lg:text-4xl text-2xl">Highly Known</span> Sponsor Partners</h1>
+            <h1 className="lg:text-5xl text-3xl font-semibold text-gray-800 dark:text-white ">Our <span className="text-red-500 ">Highly Known</span> Sponsor Partners</h1>
         </div>
 
         <div className="max-w-screen-xl mx-auto mt-20">

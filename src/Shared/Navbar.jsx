@@ -44,7 +44,7 @@ const Navbar = () => {
       <NavLink to="/events"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Events</a></li></NavLink> 
       <NavLink to="/event-success"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Successes</a></li></NavLink> 
       <NavLink to="/event-photo-collection"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Collection</a></li></NavLink> 
-      <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>About</a></li></NavLink> 
+      <NavLink to="/about-us"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>About</a></li></NavLink> 
       </ul>
     </div>
 <div className="lg:w-[78%] w-[150%] h-full">
@@ -57,7 +57,7 @@ const Navbar = () => {
       <NavLink to="/events"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Events</a></li></NavLink> 
       <NavLink to="/event-success"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Successes</a></li></NavLink> 
       <NavLink to="/event-photo-collection"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Collection</a></li></NavLink> 
-      <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>About</a></li></NavLink> 
+      <NavLink to="/about-us"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>About</a></li></NavLink> 
     </ul>
   </div>
   <div className="navbar-end">

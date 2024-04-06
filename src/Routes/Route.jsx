@@ -10,6 +10,7 @@ import CreateAccount from "../Auth/CreateAccount";
 import PrivateRoute from "./PrivateRoute";
 import SuccessMain from './../Pages/Success/SuccessMain';
 import Collection from "../Pages/Collection/Collection";
+import AboutMain from "../Pages/About/AboutMain";
 
 
 
@@ -47,8 +48,11 @@ const router = createBrowserRouter([
         },
         {
             path : "/event-photo-collection",
-            element: <Collection/>,
-           
+            element: <Collection/>, 
+        },
+        {
+            path : "/about-us",
+            element: <AboutMain/>, 
         },
 {
     path : "/login",

@@ -4,7 +4,7 @@ const Stats = () => {
     return (
 <>
 <div className="max-w-7xl mx-auto text-center mt-10">
-            <h1 className="lg:text-5xl text-3xl font-semibold text-gray-800 dark:text-white ">Our <span className="text-red-500 lg:text-4xl text-2xl">Successful</span> Achievement & Completion</h1>
+            <h1 className="lg:text-5xl text-3xl font-semibold text-gray-800 dark:text-white ">Our <span className="text-red-500">Successful</span> Achievement & Completion</h1>
         </div>
 <div className="flex items-center justify-center p-10 ">
 
