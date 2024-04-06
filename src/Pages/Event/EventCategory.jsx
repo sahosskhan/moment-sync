@@ -6,7 +6,7 @@ const EventCategory = ({items}) => {
   
     return (
         <Link to={`/view-event-details/${id}`}>
-<div className="card w-auto bg-red-200 shadow-md  hover:scale-110 scale-100 transition-all duration-300">
+<div data-aos="fade-up" className="card w-auto bg-red-200 shadow-md  hover:scale-110 scale-100 transition-all duration-300">
   <figure className="px-10 pt-10">
     <img src={icon} alt="Shoes" className="rounded-xl h-40" />
   </figure>
