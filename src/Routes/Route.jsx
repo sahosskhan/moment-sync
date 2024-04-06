@@ -9,6 +9,7 @@ import Login from "../Auth/Login";
 import CreateAccount from "../Auth/CreateAccount";
 import PrivateRoute from "./PrivateRoute";
 import SuccessMain from './../Pages/Success/SuccessMain';
+import Collection from "../Pages/Collection/Collection";
 
 
 
@@ -43,6 +44,11 @@ const router = createBrowserRouter([
             path : "/event-success",
             element: <SuccessMain/>,
             loader: () => fetch('/success.json')
+        },
+        {
+            path : "/event-photo-collection",
+            element: <Collection/>,
+           
         },
 {
     path : "/login",
