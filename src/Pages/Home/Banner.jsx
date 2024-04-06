@@ -6,7 +6,7 @@ const Banner = () => {
                     <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center dark:bg-gray-800 dark:text-white">
         <div className="w-full lg:w-1/2 ">
             <div className="lg:max-w-lg">
-                <h1 className="text-2xl font-semibold tracking-wide text-gray-800 dark:text-white lg:text-4xl ">Sync your <span className="text-red-500">moments</span> with memories </h1>
+                <h1 className="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white lg:text-5xl ">Sync your <span className="text-red-500">moments</span> with memories </h1>
                 <p className="mt-4 text-gray-600 font-medium dark:text-gray-300">Sync your moments with us for memorable & enjoyable. We Bright Your Celebration In Your Way That Make Cool Atheistic Vibe That Bring Smile & Memorable .</p>
                 <div className="grid gap-6 mt-8 sm:grid-cols-2">
                     <div className="flex items-center  hover:scale-110 scale-100 transition-all duration-100 text-gray-800 -px-3 dark:text-gray-200">

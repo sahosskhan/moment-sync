@@ -11,6 +11,7 @@ import PrivateRoute from "./PrivateRoute";
 import SuccessMain from './../Pages/Success/SuccessMain';
 import Collection from "../Pages/Collection/Collection";
 import AboutMain from "../Pages/About/AboutMain";
+import Career from "../Pages/Career/Career";
 
 
 
@@ -48,11 +49,15 @@ const router = createBrowserRouter([
         },
         {
             path : "/event-photo-collection",
-            element: <Collection/>, 
+            element: <PrivateRoute> <Collection/></PrivateRoute>, 
         },
         {
             path : "/about-us",
             element: <AboutMain/>, 
+        },
+        {
+            path : "/carer-moment-sync",
+            element: <Career/>, 
         },
 {
     path : "/login",
