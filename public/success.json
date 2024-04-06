@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "banner": "/ban1.jpg",
+        "name": "Microsoft Annual Conferences 2022",
+        "date": "04 Sept, 2023",
+        "host": "Sahoss Khan"
+    },
+    {
+        "id": 2,
+        "banner": "/ban2.webp",
+        "name": "Samsung S24 Series Launch Events",
+        "date": "23 Jan, 2024",
+        "host": "Sangram Khan"
+    },
+
+    {
+        "id": 3,
+        "banner": "/ban4.jpg",
+        "name": "Korean Traditional Wedding Events",
+        "date": "15 Oct, 2022",
+        "host": "AbuAnNur Khan"
+    },
+    {
+        "id": 4,
+        "banner": "/ban5.jpg",
+        "name": "Jim & Della 20th Anniversaries",
+        "date": "26 Dec, 2022",
+        "host": "AbuAnNur Khan"
+    },
+    {
+        "id": 5,
+        "banner": "/ban6.jpg",
+        "name": "Park Marco's Birthday Parties",
+        "date": "10 Jun, 2023",
+        "host": "AbuAnNur Khan"
+    },
+    {
+        "id": 6,
+        "banner": "/ban8.jpg",
+        "name": "Pray For Palestine Campaigns",
+        "date": "05 Jan, 2024",
+        "host": "Sangram Khan"
+    },
+
+    {
+        "id": 7,
+        "banner": "/ban13.jpg",
+        "name": "Realme Tech & Science Conferences",
+        "date": "17 Aug,2021",
+        "host": "Sangram Khan"
+    },
+    {
+        "id": 8,
+        "banner": "/ban14.jpg",
+        "name": "ChatGPT AI Challenge Hackathons",
+        "date": "29 Jul,2022",
+        "host": "Sahoss Khan"
+    },
+    {
+        "id": 9,
+        "banner": "/ban15.jpeg",
+        "name": "FREE FIRE ESports 2023",
+        "date": "02 Nov,2023",
+        "host": "Sahoss Khan"
+    }
+]

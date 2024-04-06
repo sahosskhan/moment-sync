@@ -8,6 +8,7 @@ import BookingEvent from "../Pages/Event/BookingEvent";
 import Login from "../Auth/Login";
 import CreateAccount from "../Auth/CreateAccount";
 import PrivateRoute from "./PrivateRoute";
+import SuccessMain from './../Pages/Success/SuccessMain';
 
 
 
@@ -37,6 +38,11 @@ const router = createBrowserRouter([
             path : "/confirm-event-booking/:id",
             element: <PrivateRoute> <BookingEvent/></PrivateRoute>,
             loader: () => fetch('/events.json')
+        },
+        {
+            path : "/event-success",
+            element: <SuccessMain/>,
+            loader: () => fetch('/success.json')
         },
 {
     path : "/login",
