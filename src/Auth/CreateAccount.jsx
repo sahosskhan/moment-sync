@@ -15,7 +15,7 @@ const CreateAccount = () => {
         .then((result) => {
           Swal.fire({
             title: "Successfully!",
-            text: "You Continue With Google ",
+            text: "You Continue With Google",
             icon: "success",
             confirmButtonText: "Done",
           });
@@ -55,7 +55,7 @@ const CreateAccount = () => {
         .then((result) => {
           Swal.fire({
             title: "Successfully!",
-            text: "Registration Complete.",
+            text: "Your Account Done & You Continue With Account.",
             icon: "success",
             confirmButtonText: "Done",
           });
