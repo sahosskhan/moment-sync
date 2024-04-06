@@ -7,6 +7,7 @@ import ViewEventDetails from "../Pages/Event/ViewEventDetails";
 import BookingEvent from "../Pages/Event/BookingEvent";
 import Login from "../Auth/Login";
 import CreateAccount from "../Auth/CreateAccount";
+import PrivateRoute from "./PrivateRoute";
 
 
 
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
         },
         {
             path : "/confirm-event-booking/:id",
-            element: <BookingEvent/>,
+            element: <PrivateRoute> <BookingEvent/></PrivateRoute>,
             loader: () => fetch('/events.json')
         },
 {
