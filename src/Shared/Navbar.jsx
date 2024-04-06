@@ -1,9 +1,17 @@
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { AuthContext } from './../Auth/AuthProvider';
 
 
 const Navbar = () => {
+
+  const { user, LogOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    LogOut();
+  };
+
     const [theme, setTheme] = useState(null);
     useEffect(() => {
       if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -56,14 +64,21 @@ const Navbar = () => {
   <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img  src="/user.png" />
+          {user?( <img  src={user?.photoURL} />):( <img  src="/user.png" />)}
         </div>
       </div>
       <ul tabIndex={0} className="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-red-100 dark:bg-gray-900 rounded-box w-52 dark:text-white ">
-      <li className=" mb-4 rounded-md font-semibold text-black bg-gray-300 capitalize"><a>Sahoss Khan</a></li>
-      <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Register</a></li></NavLink> 
-      <NavLink to="/login"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Login</a></li></NavLink> 
-      <NavLink to="/"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Logout</a></li></NavLink> 
+      {user ?( 
+      <li className=" mb-4 rounded-md font-semibold text-black bg-gray-300 capitalize"><a>{user?.displayName}</a></li>):""}
+
+       {user ?( 
+          <NavLink to="/"><li onClick={handleLogOut} className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Logout</a></li></NavLink> 
+   )
+     :(
+      <>
+      <NavLink to="/create-account"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Register</a></li></NavLink> 
+      <NavLink to="/login"><li className="hover:bg-red-500 rounded-md font-semibold hover:text-white"><a>Login</a></li></NavLink> </>
+      )}
       </ul>
     </div>
 {/* dark mode */}
